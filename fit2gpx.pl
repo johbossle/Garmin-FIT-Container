@@ -6,7 +6,7 @@ use lib $FindBin::RealBin;
 
 use Garmin::FIT;
 use POSIX;
-use POSIX::strftime::GNU;
+use POSIX::strftime::Compiler;
 use File::Basename;
 use List::Util qw(sum);
 use Config::Simple ('-lc'); # ignore case

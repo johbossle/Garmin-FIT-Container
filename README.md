@@ -1,5 +1,14 @@
 ## Garmin FIT Conversion Perl Library and Scripts
 
+#### TL;DR
+
+```sh
+docker build -t fit:latest -f Dockerfile .          
+docker run -it --rm -v /Users/jbo/Downloads:/usr/files fit:latest
+
+/usr/share/scripts/XXXXXXX.pl /usr/files/XXXXXX.fit
+```
+
 This repository is a collection of Garmin FIT Perl library and scripts for
 converting Garmin FIT files to other formats.  
 Currently the following conversions are supported:
